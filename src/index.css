@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0e1217;
+}
+.App {
+  font-size: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 5px 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+}
+.parent {
+  font-weight: 600;
+  background-color: #1c1f26;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+.counter {
+  margin: 0 20px;
+}
+.parent > div {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  margin-top: 30px;
+  padding:7px 20px;
+  background-color: #008bf8;
+  color: #fff;
+}
